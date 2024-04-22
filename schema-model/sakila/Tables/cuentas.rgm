@@ -1,0 +1,8 @@
+table "sakila"."cuentas" {
+  columns = (
+    column "codigo" {
+      type = char(27)
+    }
+  )
+}
+

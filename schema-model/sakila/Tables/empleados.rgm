@@ -1,0 +1,29 @@
+table "sakila"."empleados" {
+  columns = (
+    column "cod_empleado" {
+      type = int
+    }
+    column "nombre" {
+      type = varchar(50)
+    }
+    column "apellido1" {
+      type = varchar(50)
+    }
+    column "apellido2" {
+      type = varchar(50)
+    }
+    column "email" {
+      type = varchar(50)
+    }
+    column "salario" {
+      type = int
+    }
+    column "departamento" {
+      type = varchar(11)
+    }
+    column "comision" {
+      type = int
+    }
+  )
+}
+
