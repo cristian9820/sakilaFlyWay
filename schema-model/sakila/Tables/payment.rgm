@@ -16,8 +16,7 @@ table "sakila"."payment" {
       type = int
     }
     column "amount" {
-      type = decimal(5,2)
-      null = NOT NULL
+      type = decimal(10,2)
     }
     column "payment_date" {
       type = datetime

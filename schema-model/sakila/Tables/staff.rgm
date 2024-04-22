@@ -43,6 +43,9 @@ table "sakila"."staff" {
       null = NOT NULL
       default = CURRENT_TIMESTAMP
     }
+    column "CUIT" {
+      type = varchar(20)
+    }
   )
   primaryKey = {
     columns = [
